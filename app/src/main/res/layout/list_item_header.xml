@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner_background">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/_3ssp"
+    android:layout_marginTop="@dimen/_5ssp"
+    android:layout_marginBottom="@dimen/_5ssp">
+    <TextView
+        android:id="@+id/tvGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_4ssp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_16ssp"
+        android:text="@string/gate"
+        android:layout_marginLeft="@dimen/_4ssp" />
+
+    <ImageButton
+        android:id="@+id/ibExpand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:padding="@dimen/_4ssp"
+        android:layout_centerVertical="true"
+        android:background="@color/colorTransparent"
+        android:src="@drawable/ic_arrow_down"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
+</RelativeLayout>
